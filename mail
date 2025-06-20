@@ -1,10 +1,8 @@
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>EMLR Mail Client</title>
-  <link rel="stylesheet" href="style.css">
-
   <style>
 
 body {
@@ -17,16 +15,20 @@ body {
 
 .window {
   background-color: #ffffff;
-  border: 2px solid #000000;
+  border: 1px solid #000;
   width: 800px;
   margin: 0 auto;
 }
 
 .title-bar {
-  background-color: #cccccc;    
+  background-color: #e0e0e0;    
   color: black;
   padding: 5px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
 }
 
 .menu-bar span {
@@ -83,11 +85,7 @@ body {
 .from, .subject, .date {
   flex: 1;
 }
-
   </style>
-
-
-
 </head>
 <body>
   <div class="window">
