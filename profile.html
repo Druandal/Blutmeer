@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>EMLR Archive</title>
+    <title>EMLR Profile</title>
     <link rel="stylesheet" href="style.css">
 
     <style>
@@ -74,13 +74,15 @@
         .message-header {
             font-weight: bold;
             background-color: #f0f0f0;
+            padding: 10px;
+            display: block;
         }
 
         .message:last-child {
             border-bottom: none;
         }
 
-        .items, .documents {
+        .content, .documents {
             flex: 1;
         }
     </style>
@@ -90,38 +92,25 @@
 </head>
 <body>
     <div class="window">
-        <div class="title-bar">Archive - EMLR Archive</div>
+        <div class="title-bar">Profile - EMLR Profile</div>
+        <img src="Profile.png" height="40px" width="40px" alt="Profile Picture">
 
         <nav>
             <a href="index.html">Home</a>
+            <a href="mail.html">Email</a>
+            <a href="personalstorage.html">Personal Storage</a>
         </nav>
+
 
         <div class="content">
             <div class="message-list">
                 <div class="message-header">
-                    <div class="items">Items</div>
-                    <div class="documents">Documents</div>
-                </div>
-                <div class="message">
-                    <div class="items">hotdog</div>
-                    <div class="documents">document1.html</div>
-                    <img src="VinLogo.png" height="20px" width="20px">
-                </div>
-                <div class="message">
-                    <div class="items">sword</div>
-                    <div class="documents">document2.html</div>
-                    <img src="VinLogo.png" height="20px" width="20px">
-
-                </div>
-                <div class="message">
-                    <div class="items">corn</div>
-                    <div class="documents">document3.html</div>
-                    <img src="VinLogo.png" height="20px" width="20px">
+                    <p><b>Age:</b><br>[Enter age here]</p>
+                    <p><b>Height:</b><br>[Enter height here]</p>
+                    <p><b>Character synopsis:</b><br>[Enter short char synopsis here]</p>
+                    <p><b>Favorite snack:</b><br>[Enter gluten-free paradise shenanigans here]</p>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-
 </body>
 </html>
