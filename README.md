@@ -10,7 +10,7 @@ Project consists of 9 pages:
 4. "Your Profile" page
 5. Email client page
 6. Personal info page
-7. Inbox page
-8. "Sent" page (in inbox page)
-9. "Trash" page (in inbox page)
+7. Inbox page(done but needs a way to get to it)
+8. "Sent" page (in inbox page)(done)
+9. "Trash" page (in inbox page)(done)
 10. "Contacts" page
