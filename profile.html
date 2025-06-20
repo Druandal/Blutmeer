@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EMLR Profile</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        body {
+            background-color: #f5f5f5;
+            color: #000000;
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .window {
+            background-color: #ffffff;
+            border: 2px solid #000000;
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .title-bar {
+            background-color: #cccccc;
+            color: black;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        .menu-bar span {
+            margin-right: 20px;
+            cursor: default;
+        }
+
+        .layout {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 150px;
+            background-color: #e0e0e0;
+            border-right: 1px solid #a0a0a0;
+            padding: 10px;
+        }
+
+            .sidebar ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            .sidebar li {
+                margin-bottom: 10px;
+                cursor: default;
+            }
+
+        .content {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .message-list {
+            border: 1px solid #000;
+            font-size: 14px;
+        }
+
+        .message-header, .message {
+            display: flex;
+            padding: 4px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .message-header {
+            font-weight: bold;
+            background-color: #f0f0f0;
+            padding: 10px;
+            display: block;
+        }
+
+        .message:last-child {
+            border-bottom: none;
+        }
+
+        .content, .documents {
+            flex: 1;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <div class="window">
+        <div class="title-bar">Profile - EMLR Profile</div>
+        <img src="Profile.png" height="40px" width="40px" alt="Profile Picture">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="mail.html">Email</a>
+            <a href="personalstorage.html">Personal Storage</a>
+        </nav>
+
+
+        <div class="content">
+            <div class="message-list">
+                <div class="message-header">
+                    <p><b>Age:</b><br>[Enter age here]</p>
+                    <p><b>Height:</b><br>[Enter height here]</p>
+                    <p><b>Character synopsis:</b><br>[Enter short char synopsis here]</p>
+                    <p><b>Favorite snack:</b><br>[Enter gluten-free paradise shenanigans here]</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
