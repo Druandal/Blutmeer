@@ -2,7 +2,7 @@ TECHSTACK:
 
 Frontend - HTML/CSS
 
-Project consists of 9 pages:
+Project consists of 10 pages:
 
 1. Home page
 2. Archive page (documents and items the character has)
