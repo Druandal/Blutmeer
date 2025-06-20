@@ -13,3 +13,4 @@ Project consists of 9 pages:
 7. Inbox page
 8. "Sent" page (in inbox page)
 9. "Trash" page (in inbox page)
+10. "Contacts" page
